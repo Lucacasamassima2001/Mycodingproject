@@ -1,0 +1,123 @@
+*{
+  font-family: "Arial"
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+main{
+  width: 100%;
+  height: 100%;
+  background-image: url(background.jpg);
+  background-size: cover;
+  position: absolute;
+}
+
+
+.conteiner{
+  border-radius: 25px;
+  width: 70%;
+  height: 90%;
+  background: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  width: 65%;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+
+#Titolo{
+  width: 200px;
+  height: 100px;
+  margin-left: 40%;
+  margin-top: 55px;
+}
+
+#logo{
+  height: 100%;
+  width: 100%;
+}
+
+#sottotitolo{
+  font-weight: bold;
+  margin-left: 25%;
+  margin-top: 5px;
+  width: 500px;
+  height: 40px;
+  text-align: center;
+  font-size: 30px;
+  color: #00FF00
+}
+
+/* PULSANTI */
+#buttons{
+  padding: 5px;
+  width: 80%;
+  height: 40px;
+  background-color: lime;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.pulsante{
+  margin-left: 10px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+/* RIGHE */
+.riga{
+  margin-top: 20px;
+  height: 100px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+#checkbox{
+  height: 15px;
+  width: 15px;
+}
+
+
+.Monopattino{
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  display: inline-block;
+}
+
+.indirizzo{
+  color: white;
+  margin-top: 5px;
+}
+
+
+/* BARRE DI RICARICA */
+.Statocarica{
+  color: white;
+  margin-top: 5px;
+}
+
+.riga .carica{
+  width: 35%;
+  height: 25px;
+  background-color: rgb(219, 140, 68);
+  border-radius: 5px;
+}
+
+.riga .caricadue{
+  width: 60%;
+  height: 25px;
+  background-color: lime;
+  border-radius: 5px;
+}
+
+.riga .caricatre{
+  width: 15%;
+  height: 25px;
+  background-color: rgb(219, 68, 72);
+  border-radius: 5px;
+}
